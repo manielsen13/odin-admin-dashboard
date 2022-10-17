@@ -1,0 +1,38 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.header .row1, .header .row2 {
+    display: flex;
+}
+
+.header {
+    grid-column: 2 / 3;
+    background-color: red;
+  
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    grid-row: 1/3;
+}
+
+.workspaceContainer {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    background-color: antiquewhite;
+    gap: 10px;
+    padding: 10px;
+}
+
+.projectsContainer {
+    grid-row: 1 / 3;
+}
+
+.projectCard, .announcementsList, .trendingList {
+    background-color: white;
+}
+
+
