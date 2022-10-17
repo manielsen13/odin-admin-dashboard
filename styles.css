@@ -1,7 +1,5 @@
-
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
+/* 
+CSS Reset
 */
 
 html, body, div, span, applet, object, iframe,
@@ -48,19 +46,14 @@ table {
 	border-spacing: 0;
 }
 
-
-
-
-
-
-
-
-
-
+/* 
+Style
+*/
 
 body {
     display: grid;
     grid-template-columns: 1fr 4fr;
+    font-family: Roboto;
 }
 
 .header .row1,
@@ -131,8 +124,8 @@ input {
 }
 
 .projectCard {
-    height: 200px;
-    padding: 15px;
+    height: 170px;
+    padding: 25px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -149,6 +142,10 @@ input {
 
 .projectCard, .announcementsList, .trendingList {
     background-color: white; 
+}
+
+.projectsList, .announcementsList, .trendingList {
+    margin-top: 5px;
 }
 
 
