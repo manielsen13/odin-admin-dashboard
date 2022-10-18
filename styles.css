@@ -55,6 +55,7 @@ body {
     grid-template-columns: 1fr 4fr;
     font-family: "Roboto";
     background-color: #E3E8EF;
+    color: gray;
 }
 
 img {
@@ -172,12 +173,20 @@ input {
     margin-top: 5px;
 }
 
+.projectCardTitle {
+    font-weight: 800;
+    color: black;
+}
+
 
 
 .announcementsList {
     padding: 20px;
     gap: 20px;
+    
 }
+
+
 
 .announcementCell {
     padding-top: 20px;
@@ -185,7 +194,26 @@ input {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    border-bottom: solid 1px black;
 }
+
+.announcementCell:last-child {
+    border: none;
+}
+
+.annTitle {
+    color: black;
+}
+
+.title{
+    color: black;
+}
+
+.greeting {
+    color: black;
+    font-size: 12px;
+}
+
 
 .trendingList {
     padding: 20px;
@@ -200,4 +228,17 @@ input {
     gap: 10px;
 }
 
+.accountName {
+    font-weight: 800;
+    color: black;
+}
 
+button {
+    padding: 10px;
+    width: 70px;
+    color: white;
+    font-weight: 800;
+    background-color: #4590CE;
+    border-radius: 15px;
+    border-style: none;
+}
